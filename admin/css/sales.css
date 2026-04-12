@@ -1,0 +1,20 @@
+.summary-card {
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.summary-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-header-custom {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+.table-responsive {
+  overflow-x: auto;
+}
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+}

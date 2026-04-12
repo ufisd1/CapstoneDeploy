@@ -1,0 +1,23 @@
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #6c757d;
+}
+
+.search-box input {
+  padding-left: 35px;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+}

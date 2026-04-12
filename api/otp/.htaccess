@@ -1,0 +1,20 @@
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv DB_HOST localhost
+SetEnv DB_NAME serbvhad_eggtrak
+SetEnv DB_USER serbvhad_eggtrak_user
+SetEnv DB_PASSWORD Eggtrak@123456
+SetEnv DB_POOL_NAME eggtrak_pool
+SetEnv DB_POOL_SIZE 5
+SetEnv APP_NAME EggTrak
+SetEnv TIMEZONE Asia/Manila
+SetEnv APP_ENV local
+SetEnv SECRET_KEY d16ffdfa782132ad33539ef7b3d997bdc4dcb55f43c348ffbb9c4f9c6e7767c4
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
+
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/serbvhad/eggtrak"
+PassengerBaseURI "/api/otp"
+PassengerPython "/home/serbvhad/virtualenv/eggtrak/3.7/bin/python"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
